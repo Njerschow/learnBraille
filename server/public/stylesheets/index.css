@@ -1,0 +1,72 @@
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+#result {
+    font-size: 5em;
+    margin-left: 50px;
+    margin-top: 30px;
+    padding: 20px;
+    color: red;
+    border-color: black;
+    border-style: solid;
+    width: 100px;
+    height: 100px;
+}
+
+.randomNumber {
+    font-size: 3em;
+}
+
+.braille {
+    background-color: red;
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.inactive {
+    background-color: white;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+}
+
+#generateNext, #clear {
+    margin-top: 50px;
+}
+
+#randomNumber {
+    margin-top: 15px;
+}
+
+#chooseLevel {
+    margin-top: 15px;
+    font-size: 2em;
+}
+
+#logo {
+    color: white;
+    position: absolute;
+    font-size: 2em;
+}
+
+#move-nav {
+    float: right !important;
+}
+
+@media only screen and (max-width: 770px) {
+  #logo {
+    position: relative;
+  }
+  #explore {
+    font-size: 2em;
+  }
+}
